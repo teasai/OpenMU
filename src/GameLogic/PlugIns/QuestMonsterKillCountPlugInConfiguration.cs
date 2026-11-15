@@ -15,5 +15,5 @@ public class QuestMonsterKillCountPlugInConfiguration
     /// Gets or sets the save interval.
     /// </summary>
     [Display(ResourceType = typeof(PlugInResources), Name = nameof(PlugInResources.QuestMonsterKillCountPlugInConfiguration_Message_Name))]
-    public LocalizedString Message { get; set; } = "[{0}] Defeat {1} - {2}/{3}";
+    public LocalizedString Message { get; set; } = "[{0}] 击败 {1} - {2}/{3}";
 }

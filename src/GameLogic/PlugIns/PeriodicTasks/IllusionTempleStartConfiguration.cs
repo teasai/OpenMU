@@ -16,8 +16,8 @@ public class IllusionTempleStartConfiguration : MiniGameStartConfiguration
         new()
         {
             PreStartMessageDelay = TimeSpan.Zero,
-            EntranceOpenedMessage = "Illusion Temple entrance is open and closes in {0} minute(s).",
-            EntranceClosedMessage = "Illusion Temple entrance closed.",
+            EntranceOpenedMessage = "幻影神殿入口已开放，{0} 分钟后关闭。",
+            EntranceClosedMessage = "幻影神殿入口已关闭。",
             TaskDuration = TimeSpan.FromMinutes(15),
             Timetable = PeriodicTaskConfiguration.GenerateTimeSequence(TimeSpan.FromMinutes(120)).ToList(),
         };

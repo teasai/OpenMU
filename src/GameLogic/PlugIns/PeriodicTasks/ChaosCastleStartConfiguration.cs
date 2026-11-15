@@ -16,8 +16,8 @@ public class ChaosCastleStartConfiguration : MiniGameStartConfiguration
         new()
         {
             PreStartMessageDelay = TimeSpan.Zero,
-            EntranceOpenedMessage = "Chaos Castle entrance is open and closes in {0} minute(s).",
-            EntranceClosedMessage = "Chaos Castle entrance closed.",
+            EntranceOpenedMessage = "混沌城堡入口已开放，{0} 分钟后关闭。",
+            EntranceClosedMessage = "混沌城堡入口已关闭。",
             TaskDuration = TimeSpan.FromMinutes(15),
             Timetable = PeriodicTaskConfiguration.GenerateTimeSequence(TimeSpan.FromMinutes(240), startLimit: new TimeOnly(2, 0)).ToList(),
         };

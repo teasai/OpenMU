@@ -24,8 +24,8 @@ public class KanturuStartConfiguration : MiniGameStartConfiguration
         new()
         {
             PreStartMessageDelay = TimeSpan.Zero,
-            EntranceOpenedMessage = "Kanturu Refinery Tower entrance is open and closes in {0} minute(s).",
-            EntranceClosedMessage = "Kanturu Refinery Tower entrance closed.",
+            EntranceOpenedMessage = "坎图鲁精炼塔入口已开放，{0} 分钟后关闭。",
+            EntranceClosedMessage = "坎图鲁精炼塔入口已关闭。",
             TaskDuration = TimeSpan.FromHours(6),
             Timetable = GenerateTimeSequence(TimeSpan.FromHours(8), startLimit: new TimeOnly(3, 0)).ToList(),
             TowerOpenDuration = TimeSpan.FromHours(23),

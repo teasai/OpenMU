@@ -97,6 +97,6 @@ public class OpenWarehouseChatCommandPlugIn : ChatCommandPlugInBase<OpenWarehous
         /// Gets or sets the message to show when the player does not have the required VIP level for this command (excluding GM).
         /// </summary>
         [Display(ResourceType = typeof(PlugInResources), Name = nameof(PlugInResources.OpenWarehouseChatCommandConfiguration_InsufficientVipLevelMessage_Name), Description = nameof(PlugInResources.OpenWarehouseChatCommandConfiguration_InsufficientVipLevelMessage_Description))]
-        public LocalizedString InsufficientVipLevelMessage { get; set; } = "Insufficient VIP level to use this command";
+        public LocalizedString InsufficientVipLevelMessage { get; set; } = "VIP 等级不足，无法使用此命令";
     }
 }

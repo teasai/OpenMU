@@ -149,18 +149,18 @@ public class ClearInventoryChatCommandPlugIn : ChatCommandPlugInBase<ClearInvent
         /// Gets or sets the message to show the confirmation message.
         /// </summary>
         [Display(ResourceType = typeof(PlugInResources), Name = nameof(PlugInResources.ClearInventoryConfiguration_ConfirmationMessage_Name), Description = nameof(PlugInResources.ClearInventoryConfiguration_ConfirmationMessage_Description))]
-        public LocalizedString ConfirmationMessage { get; set; } = "Confirmation: run again within 10 seconds to confirm inventory clearing";
+        public LocalizedString ConfirmationMessage { get; set; } = "确认：10 秒内再次执行命令以确认清空背包";
 
         /// <summary>
         /// Gets or sets the message to show when the player does not have enough money to run the command.
         /// </summary>
         [Display(ResourceType = typeof(PlugInResources), Name = nameof(PlugInResources.ClearInventoryConfiguration_NotEnoughMoneyMessage_Name), Description = nameof(PlugInResources.ClearInventoryConfiguration_NotEnoughMoneyMessage_Description))]
-        public LocalizedString NotEnoughMoneyMessage { get; set; } = "Not enough money to run command";
+        public LocalizedString NotEnoughMoneyMessage { get; set; } = "金币不足，无法执行命令";
 
         /// <summary>
         /// Gets or sets the message to show when the inventory is cleared.
         /// </summary>
         [Display(ResourceType = typeof(PlugInResources), Name = nameof(PlugInResources.ClearInventoryConfiguration_InventoryClearedMessage_Name), Description = nameof(PlugInResources.ClearInventoryConfiguration_InventoryClearedMessage_Description))]
-        public LocalizedString InventoryClearedMessage { get; set; } = "Inventory cleared";
+        public LocalizedString InventoryClearedMessage { get; set; } = "背包已清空";
     }
 }

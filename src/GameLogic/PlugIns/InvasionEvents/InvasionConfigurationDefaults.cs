@@ -18,8 +18,8 @@ internal static class InvasionConfigurationDefaults
     {
         TaskDuration = TimeSpan.FromMinutes(30),
         PreStartMessageDelay = TimeSpan.FromSeconds(3),
-        StartMessage = "[{mapName}] Golden invasion!",
-        EndMessage = "[{mapName}] Golden invasion has ended.",
+        StartMessage = "[{mapName}] 黄金入侵！",
+        EndMessage = "[{mapName}] 黄金入侵已结束。",
         Timetable = PeriodicTaskConfiguration.GenerateTimeSequence(TimeSpan.FromHours(4), new TimeOnly(0, 30)).ToList(),
         Mobs =
         [
@@ -42,8 +42,8 @@ internal static class InvasionConfigurationDefaults
     {
         TaskDuration = TimeSpan.FromMinutes(30),
         PreStartMessageDelay = TimeSpan.FromSeconds(3),
-        StartMessage = "[{mapName}] Red Dragon invasion!",
-        EndMessage = "[{mapName}] Red Dragon invasion has ended.",
+        StartMessage = "[{mapName}] 红龙入侵！",
+        EndMessage = "[{mapName}] 红龙入侵已结束。",
         Timetable = PeriodicTaskConfiguration.GenerateTimeSequence(TimeSpan.FromHours(4), new TimeOnly(1, 30)).ToList(),
         Mobs =
         [
@@ -58,8 +58,8 @@ internal static class InvasionConfigurationDefaults
     {
         TaskDuration = TimeSpan.FromMinutes(30),
         PreStartMessageDelay = TimeSpan.FromSeconds(3),
-        StartMessage = "[{mapName}] White Wizard corps invasion!",
-        EndMessage = "[{mapName}] White Wizard corps invasion has ended.",
+        StartMessage = "[{mapName}] 白巫师军团入侵！",
+        EndMessage = "[{mapName}] 白巫师军团入侵已结束。",
         ForceSingleMap = true,
         Timetable = PeriodicTaskConfiguration.GenerateTimeSequence(TimeSpan.FromHours(4), new TimeOnly(2, 30)).ToList(),
         Mobs =
